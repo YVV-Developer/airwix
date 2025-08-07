@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import { ToastContainer } from "react-toastify";
 import Footer from "@/components/Footer";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: "AIRWIX Technologies",
@@ -27,6 +28,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
