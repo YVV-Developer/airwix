@@ -117,7 +117,7 @@ const Footer = () => {
       </div>
       <div className="items-center justify-between py-6 mt-8 border-t sm:flex">
         <div className="mt-4 sm:mt-0">
-          &copy; 2025 AIRWIX Technologies All rights reserved.
+          &copy; 2025 Airwix Technologies All rights reserved.
         </div>
         <div className="mt-6 sm:mt-0">
           <ul className="flex items-center space-x-4">
