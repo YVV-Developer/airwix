@@ -65,7 +65,7 @@ export default function ContactUs() {
                 </span>
               </p>
 
-              <a href="tel:+91 93135 56651" className="flex items-start -mx-2">
+              <a href="tel:+91 6353247862" className="flex items-start -mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-6 h-6 mx-2 text-indigo-700 "
@@ -82,7 +82,7 @@ export default function ContactUs() {
                 </svg>
 
                 <span className="mx-2 text-gray-700 truncate w-72 ">
-                  +91 93135 56651
+                  +91 6353247862
                 </span>
               </a>
 
