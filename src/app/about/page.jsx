@@ -55,7 +55,7 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="mt-4 text-gray-600">
-             Under the leadership of <b>Mr. Vatsal Sutariya</b> and <b>Mr. Vivek Patel</b>, we empower businesses through innovative, technology-driven solutions. We specialize in developing next-generation <b>ERP systems</b> alongside advanced web and mobile applications. With a strong commitment to high-quality code, scalability, and superior performance, we consistently deliver measurable value and long-term success for our clients
+             Under the leadership of <b>Mr. Vatsal Sutariya</b> and <b>Mr. Vivek Patel</b>, we empower businesses through innovative, technology-driven solutions. We specialize in developing next-generation <b>ERP systems</b> alongside advanced web and mobile applications. With a strong commitment to high-quality code, scalability, and superior performance, we consistently deliver measurable value and long-term success for our clients.
             </p>
           </div>
         </div>
