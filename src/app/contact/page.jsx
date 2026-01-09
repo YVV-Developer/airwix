@@ -65,6 +65,28 @@ export default function ContactUs() {
                 </span>
               </p>
 
+              {/* 2. NEW: Person Name Section */}
+              <p className="flex items-start -mx-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 mx-2 text-indigo-700"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                  />
+                </svg>
+                <span className="mx-2 text-gray-700 truncate w-72">
+                  Vivek Patel
+                </span>
+              </p>
+
+              {/* 3. Mobile Number Section */}
               <a href="tel:+91 6353247862" className="flex items-start -mx-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +107,6 @@ export default function ContactUs() {
                   +91 6353247862
                 </span>
               </a>
-
               <a
                 href="mailto:info@airwix.in"
                 className="flex items-start -mx-2"
