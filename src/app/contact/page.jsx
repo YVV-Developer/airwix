@@ -174,7 +174,7 @@ export default function ContactUs() {
                 scrolling="no"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                src="https://maps.google.com/maps?q=402,Shreem%20Maxima,Nikol,Ahmedabad,Gujarat&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d229.48574979594562!2d72.6709037207279!3d23.032142375281598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87005e8c970d%3A0x18419b23d33432!2sAirwix%20Technologies!5e0!3m2!1sen!2sin!4v1774634560581!5m2!1sen!2sin"
                 className="w-full h-full"
               ></iframe>
             </div>
