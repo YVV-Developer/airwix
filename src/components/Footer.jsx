@@ -68,7 +68,7 @@ const Footer = () => {
     <footer className="max-w-screen-xl px-4 py-5 mx-auto mt-12 text-gray-500 bg-white md:px-8">
       <div className="justify-between gap-6 md:flex">
         <div className="flex-1">
-          <div className="max-w-xs">
+          <div className="max-w-sm">
             <Link href={"/"}>
               <img
                 src="/logo01.png"
@@ -82,22 +82,84 @@ const Footer = () => {
               Simplify complex operations and centralize data our ERP helps
               teams move faster, work smarter, and make informed decisions.
             </p>
-          </div>
-          {/* <form onSubmit={(e) => e.preventDefault()}>
-            <label className="block pt-4 pb-2">Stay up to date</label>
-            <div className="flex items-center max-w-sm p-1 border rounded-md">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="w-full p-2.5 outline-none"
-              />
-              <button className="p-2.5 rounded-md text-white bg-indigo-600 outline-none shadow-md focus:shadow-none sm:px-5">
-                Subscribe
-              </button>
+
+            {/* Contact Info Added Here */}
+            <div className="mt-6 space-y-4 text-sm text-gray-600">
+              <div className="flex items-start gap-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 text-indigo-600 shrink-0 mt-0.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <span className="leading-relaxed">
+                  402, Shreem Maxima, beside National handloom, opp. Angel
+                  Arcade, Nikol, Ahmedabad, Gujarat 382410
+                </span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 text-indigo-600 shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                <a
+                  href="tel:+918200172869"
+                  className="hover:text-indigo-600 transition-colors"
+                >
+                  +91 8200172869
+                </a>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 text-indigo-600 shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+                <a
+                  href="mailto:info@airwix.in"
+                  className="hover:text-indigo-600 transition-colors"
+                >
+                  info@airwix.in
+                </a>
+              </div>
             </div>
-          </form> */}
+          </div>
         </div>
-        <div className="items-start justify-between flex-1 mt-10 space-y-6 sm:flex md:space-y-0 md:mt-0">
+        <div className="items-start justify-between flex-1 mt-10 space-y-6 sm:flex md:space-y-0 md:mt-0 lg:pl-10">
           {footerNavs.map((item, idx) => (
             <ul className="space-y-4" key={idx}>
               <h4 className="font-medium text-gray-800">{item.label}</h4>
@@ -115,16 +177,18 @@ const Footer = () => {
           ))}
         </div>
       </div>
+      
+      {/* Footer Bottom Line */}
       <div className="items-center justify-between py-6 mt-8 border-t sm:flex">
         <div className="mt-4 sm:mt-0">
-          &copy; 2025 Airwix Technologies All rights reserved.
+          &copy; 2026 Airwix Technologies All rights reserved.
         </div>
         <div className="mt-6 sm:mt-0">
           <ul className="flex items-center space-x-4">
-            <li className="flex items-center justify-center w-10 h-10 border rounded-full">
+            <li className="flex items-center justify-center w-10 h-10 border rounded-full hover:bg-gray-50 transition-colors">
               <a href="#">
                 <svg
-                  className="w-6 h-6 text-blue-400 svg-icon"
+                  className="w-5 h-5 text-blue-400 svg-icon"
                   viewBox="0 0 20 20"
                 >
                   <path
@@ -135,10 +199,10 @@ const Footer = () => {
               </a>
             </li>
 
-            <li className="flex items-center justify-center w-10 h-10 border rounded-full">
+            <li className="flex items-center justify-center w-10 h-10 border rounded-full hover:bg-gray-50 transition-colors">
               <a href="#">
                 <svg
-                  className="w-6 h-6 text-blue-700 svg-icon"
+                  className="w-5 h-5 text-blue-700 svg-icon"
                   viewBox="0 0 20 20"
                 >
                   <path
@@ -149,10 +213,10 @@ const Footer = () => {
               </a>
             </li>
 
-            <li className="flex items-center justify-center w-10 h-10 border rounded-full">
+            <li className="flex items-center justify-center w-10 h-10 border rounded-full hover:bg-gray-50 transition-colors">
               <a href="#">
                 <svg
-                  className="w-6 h-6 text-blue-500 svg-icon"
+                  className="w-5 h-5 text-blue-500 svg-icon"
                   viewBox="0 0 20 20"
                 >
                   <path
@@ -163,10 +227,10 @@ const Footer = () => {
               </a>
             </li>
 
-            <li className="flex items-center justify-center w-10 h-10 border rounded-full">
+            <li className="flex items-center justify-center w-10 h-10 border rounded-full hover:bg-gray-50 transition-colors">
               <a href="#">
                 <svg
-                  className="w-6 h-6 text-red-600 svg-icon"
+                  className="w-5 h-5 text-red-600 svg-icon"
                   viewBox="0 0 20 20"
                 >
                   <path
